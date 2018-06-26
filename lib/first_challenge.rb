@@ -19,6 +19,7 @@ def first_challenge
       value.each.with_index do |flavor, index|
         if flavor == "strawberry"
           contacts["Freddy Mercury"][attribute].delete(index)
+        end
       end
     end
   end
